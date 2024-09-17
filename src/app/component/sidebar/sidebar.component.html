@@ -1,0 +1,29 @@
+<aside class="w-60 bg-gray-100 py-4 h-full">
+  <ul>
+    <li
+      [routerLink]="'/'"
+      class="p-2 pl-4 cursor-pointer"
+      routerLinkActive="bg-blue-200 border-l-8 border-blue-500"
+      [routerLinkActiveOptions]="{ exact: true }"
+    >
+      All Task
+    </li>
+
+    <li
+      [routerLink]="'/important'"
+      class="p-2 pl-4 cursor-pointer"
+      routerLinkActive="bg-blue-200 border-l-8 border-blue-500"
+      [routerLinkActiveOptions]="{ exact: true }"
+    >
+      Important
+    </li>
+    <li
+      [routerLink]="'/completed'"
+      class="p-2 pl-4 cursor-pointer"
+      routerLinkActive="bg-blue-200 border-l-8 border-blue-500"
+      [routerLinkActiveOptions]="{ exact: true }"
+    >
+      Completed
+    </li>
+  </ul>
+</aside>
